@@ -19,6 +19,10 @@ def welcome_assignment_answers(question):
         answer = "883c13da6a24949c9a23231b60119e2ace58459da4f8bbdd812cc37764548bdd"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
+    elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
+        answer = "4"
+    #elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":"
+    #    answer = ""
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
@@ -38,8 +42,8 @@ if __name__ == "__main__":
 #DONE "Are encoding and encryption the same? - Yes/No":
 #DONE "Is it possible to decrypt a message without a key? - Yes/No":
 #DONE "Is it possible to decode a message without a key? - Yes/No":
-#DONE"Is a hashed message supposed to be un-hashed? - Yes/No":
-#DONE66"What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code":
-#"Is MD5 a secured hashing algorithm? - Yes/No":
+#DONE "Is a hashed message supposed to be un-hashed? - Yes/No":
+#DONE "What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code":
+#DONE77 "Is MD5 a secured hashing algorithm? - Yes/No":
 #"What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
 #"What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
