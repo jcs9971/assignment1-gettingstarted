@@ -8,7 +8,7 @@ def welcome_assignment_answers(question):
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "No"
+        answer = "Yes"
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
