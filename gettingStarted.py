@@ -12,7 +12,9 @@ def welcome_assignment_answers(question):
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "mTCP"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
-        answer ="Yes"
+        answer = "Yes"
+    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+        answer = "No"
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
@@ -28,10 +30,10 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question))
 
 #Questions:
-#"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?": 
-#"Are encoding and encryption the same? - Yes/No":
-#"Is it possible to decrypt a message without a key? - Yes/No":
-#"Is it possible to decode a message without a key? - Yes/No":
+#DONE "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?": 
+#DONE "Are encoding and encryption the same? - Yes/No":
+#DONE "Is it possible to decrypt a message without a key? - Yes/No":
+#DONE "Is it possible to decode a message without a key? - Yes/No":
 #"Is a hashed message supposed to be un-hashed? - Yes/No":
 #"What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code":
 #"Is MD5 a secured hashing algorithm? - Yes/No":
